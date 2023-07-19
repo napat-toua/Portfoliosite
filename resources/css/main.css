@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+@media (min-width: 1400px) { 
+    /* xxl */
+    #jumbot{
+        background: url('../images/EVPr61oUMAEAhna.jfif');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) { 
+    /* xl */
+    #jumbot{
+        background: url('../images/EVPr61oUMAEAhna.jfif');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    /* lg */
+    #jumbot{
+        background: url('../images/EVPrpIAU4AAohye.jfif');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    /* md */
+    #jumbot{
+        background: url('../images/EVPrpIAU4AAohye.jfif');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 767px) {  
+    /* sm */
+    #jumbot{
+        background: #108dc7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+body{
+	font-family: 'Mitr', sans-serif;
+	background-color: #23272A;
+}
+h1, h1.tab-content{
+	font-family: 'Mitr', sans-serif;
+}
+h1 a{
+	text-decoration:none;
+}
+.nav-tabs .nav-link.active{
+	color: #dee2e6;
+	background-color: #23272A;
+	border-bottom: none;
+}
+.nav-tabs .nav-link{
+	color: #65676B;
+	border-bottom: none;
+}
+.tab-content{
+	font-family: 'Mitr', sans-serif;
+	color: #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    padding: 20px;
+}
+.txt-justify{
+	text-align: justify;
+}
+#jumbot{
+    color: #dee2e6;
+    text-shadow: 5px 1px 5px black;
+}
+#trophy-bronze{
+	color: #CD7F32;
+}
+
+#trophy-extra{
+    color: #429ef5;
+}
+
+.myimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-bottom: 40px;
+}
